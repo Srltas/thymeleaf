@@ -11,7 +11,8 @@
 	<groupId>com.dongmin.springboot</groupId>
 	<artifactId>thymeleafdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymeleafdemo</name>
+	<packaging>jar</packaging>
+	<name>thymeleaf-employees-list-db</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -48,14 +49,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin -->
-		<dependency>
-		    <groupId>org.springframework.boot</groupId>
-		    <artifactId>spring-boot-maven-plugin</artifactId>
-		    <version>2.6.6</version>
-		</dependency>
-		
 	</dependencies>
 
 	<build>
